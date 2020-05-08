@@ -1,0 +1,37 @@
+body{
+    background-image: url('bc1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 1000%;
+    margin: 0px;
+    padding:0px;
+}
+ol{
+    
+    background-color: rgb(11, 109, 201);
+    margin-top: 0px; 
+    text-align: left;
+}
+ol li{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 25px; 
+    padding: 10px;
+}
+ol li a{
+    text-decoration: none;
+    color:lavenderblush;
+    padding: 8px;
+}
+.active{
+    background-color: rgb(12, 70, 179);
+    border-radius: 2px;
+    padding:0px;
+} 
+ol li a:hover{
+    background-color: rgb(12, 70, 179);
+    border-radius: 2px;
+}
+ol li a:active{
+    background-color: rgb(10, 7, 136);
+    border-radius: 2px;
+}
